@@ -1,0 +1,238 @@
+
+  .navbar-custom {
+    background-color: #FFF0D1; 
+    ; 
+  }
+  .navbar-custom .nav-link {
+    color: #ff69b4; 
+    font-weight: bold;
+  }
+  .navbar-custom .nav-link:hover {
+    color: #d1096d; 
+  }
+
+  
+  .navbar-custom .navbar-brand {
+    font-family: Arial, Helvetica,sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#d1096d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    transition: color 0.3s ease, transform 0.3s ease; 
+  }
+
+
+.navbar-custom .navbar-brand:hover {
+  color:#ff69b4; 
+  transform: scale(1.1); 
+}
+ 
+  .header-section {
+    position: relative;
+    background-size: cover; 
+    background-position: center; 
+    color:#f3ebeb; 
+    padding: 100px 0; 
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+  }
+
+  .header-content {
+    position: relative;
+    z-index: 2; 
+  }
+
+  .display-4 {
+    font-size: 24px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  }
+
+  p {
+    font-size: 17px; 
+    margin-top: 4px; 
+  }
+
+  .btn {
+    margin: 10px; 
+    padding: 10px 20px; 
+    font-size: 40px; 
+  }
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header-section {
+    background-image:url(Cinsiyet\ Eşitliği\ Tasarım.webp);
+    background-size: auto;
+    background-position:center ;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .header-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .header-section .header-content {
+    position: relative;
+    z-index: 1;
+    color: #e7d4be;
+    padding-top: 40vh;
+  }
+  
+  .header-section .header-content h1 {
+    font-size: 4rem;
+  }
+  
+  .header-section .header-content button {
+    margin: 20px 10px;
+  }
+  
+  #about {
+    background-color: #e9e3dc;
+    padding: 50px 0;
+    color: #664343;
+    font-style: oblique;
+    font-size: 36px;
+    
+  }
+  
+  
+  #slider {
+    padding: 1000px 0;
+  }
+  .carousel-item img {
+    height: 100vh; 
+    object-fit: cover; 
+}
+
+.carousel-caption {
+    background-color: rgba(236, 202, 202, 0.5); 
+    padding: 5px; 
+    border-radius: 5px; 
+    bottom: 10%; 
+}
+.carousel-caption h5 {
+  font-weight: bold; 
+  color: #664343;
+  font: size 24px;
+  font-style: italic;
+  text-align: center;
+}
+.carousel-caption p{
+  font-weight:bold;
+  font-style: italic;
+color: #664343;
+position: absolute;
+    top: 50%;            
+    left: 50%;           
+    transform: translate(-50%, -50%); 
+    text-align: center;  
+    width: 100%;         
+}
+
+  #contact {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+
+  }
+  /* Instagram Butonu */
+#contact .btn-instagram {
+  border-color: #ff69b4;
+  color: #ff69b4;
+}
+
+#contact .btn-instagram:hover {
+  background-color: #ff69b4;
+  color: white;
+}
+
+
+/* X Butonu */
+#contact .btn-x {
+  border-color: black;
+  color: black;
+}
+
+#contact .btn-x:hover {
+  background-color: black;
+  color: white;
+}
+
+/* LinkedIn Butonu */
+#contact .btn-linkedin {
+  border-color: blue;
+  color: blue;
+}
+
+#contact .btn-linkedin:hover {
+  background-color: blue;
+  color: white;
+}
+
+  form {
+    max-width: 300px; 
+    margin: 0 auto; 
+  }
+  
+  form input, form textarea {
+    width: 100%; 
+  }
+  
+  form button {
+    width: 100%; 
+  }
+  h3 {
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    form input, form textarea {
+        width: 100%;
+    }
+}
+
+    form button {
+      width: 100%; 
+    
+  }
+  form {
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 30px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+h3 {
+    margin-top: 50px; 
+    margin-bottom: 30px; 
+    color: #333; 
+    text-align: center; 
+}
+
+.btn-primary {
+    margin-top: 20px; 
+}
+
+
+
+
+  
+  
